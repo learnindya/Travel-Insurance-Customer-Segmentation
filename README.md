@@ -2,6 +2,8 @@
 Hanya 35.73% pelanggan yang membeli asuransi perjalanan pada tahun 2019. Tim memiliki tujuan untuk meningkatkan persentase conversion rate menjadi 40%.
 Kondisi awal perusahaan tidak memiliki profil pelanggan. Perusahaan hanya menjual 1 paket asuransi.
 
+Main coding file: Stage_4__Hakuna_Matata_.ipynb
+
 # Goal
 Membuat segmentasi pelanggan.
 
@@ -64,7 +66,7 @@ Karakteristik:
 *   Memiliki pendapatan di bawah rata-rata.
 *   Jarang bepergian domestik dan internasional.
 
-Interpretasi: Sedikit berbeda dengan cluster 0, cluster 3 adalah Pegawai Negeri Sipil dengan mobilitas rendah. Umumnya, PNS sudah memiliki asuransi sendiri sehingga tidak membutuhkan asuransi dari luar lagi. Tujuan menyasar cluster ini adalah untuk mendorong PNS melengkapi paket asuransinya yang sudah ada.
+Interpretasi: Sedikit berbeda dengan cluster 0, cluster 3 adalah Pegawai Negeri Sipil dengan mobilitas rendah. Umumnya, PNS sudah memiliki asuransi sendiri sehingga tidak membutuhkan asuransi dari luar lagi. Karena value dari cluster ini rendah, tim tidak memberikan rekomendasi khusus untuk cluster ini.
 
 # Business Recommendation
 **Cluster 0: Pelanggan Berpenghasilan Rendah dengan Mobilitas Rendah**
@@ -92,9 +94,3 @@ Interpretasi: Sedikit berbeda dengan cluster 0, cluster 3 adalah Pegawai Negeri 
 * Iklankan penawaran khusus untuk perjalanan bisnis atau liburan eksklusif melalui email dan sosial media.
 * Jalin kerjasama dengan maskapai penerbangan, hotel, dan perusahaan tour & travel untuk menawarkan paket wisata dan asuransi perjalanan yang menarik.
 * Buat program loyalitas untuk pelanggan setia yang sering bepergian.
-
-**Cluster 3: Pegawai Negeri Sipil dengan Mobilitas Rendah**
-
-* Beri manfaat tambahan, peningkatan cakupan, atau proses klaim lebih mudah yang tidak tersedia dalam asuransi pemerintah.
-* Tawarkan premi yang terjangkau.
-* Jelaskan manfaat asuransi perjalanan yang relevan dengan kebutuhan mereka, seperti perlindungan perjalanan dinas dan wisata keluarga.
